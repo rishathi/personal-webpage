@@ -1,16 +1,46 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './MyWork.css';
 
 const MyWork = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h2>My Work</h2>
-      <p>Here's a summary of my work...</p>
+    <div className="container">
+      <h1 className="page-title">My Work</h1>
+      
+      <div className="button-container">
+        {/* Web Development Image Button */}
+        <a href="https://github.com/rishathi" target="_blank" rel="noopener noreferrer">
+          <div className="image-button">
+            <img 
+              src="/programming_img.jpg" 
+              alt="Web Development" 
+              className="image-btn" 
+            />
+            <h2 className="image-title">Web Development</h2>
+          </div>
+        </a>
+        {/* Art Portfolio Image Button */}
+        <div className="image-button" onClick={() => navigate('/art')}>
+          <img 
+            src="/art_img/IMG_2488.jpeg" 
+            alt="Art Portfolio" 
+            className="image-btn" 
+          />
+          <h2 className="image-title">Art Portfolio</h2>
+        </div>
 
-      <button onClick={() => navigate('/art')}>View Art Portfolio</button>
-      <button onClick={() => navigate('/gdsn')}>View GDSN Portfolio</button>
+        {/* GDSN Portfolio Image Button */}
+        <div className="image-button" onClick={() => navigate('/gdsn')}>
+          <img 
+            src="/gdsn_img/typeface_prog/Raleway-mockup-1.jpg" 
+            alt="GDSN Portfolio" 
+            className="image-btn" 
+          />
+          <h2 className="image-title">GDSN Portfolio</h2>
+        </div>
+      </div>
     </div>
   );
 };

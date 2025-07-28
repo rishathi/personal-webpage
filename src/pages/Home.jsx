@@ -21,7 +21,7 @@ const Home = () => {
   }, [location]);
 
   return (
-    <div>
+    <div className="content">
       <section id="about">
         <AboutMe />
       </section>
