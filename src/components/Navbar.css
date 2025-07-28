@@ -29,21 +29,6 @@ nav {
   color: #d24fa3;
 }
 
-.contact-opt {
-  background-color: #d24fa3;
-  border: none;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-opt:hover {
-  background-color: #b43c88;
-}
-
 nav ul,
 .navbar-container,
 .nav-links {

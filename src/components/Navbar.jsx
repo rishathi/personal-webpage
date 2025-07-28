@@ -17,7 +17,7 @@ const Navbar = () => {
           <li onClick={() => handleNav('work')}>My Work</li>
         </div>
         <li>
-          <button className="contact-opt" onClick={() => handleNav('contact')}>Let's Talk!</button>
+          <button className="button1" onClick={() => handleNav('contact')}>Let's Talk!</button>
         </li>
       </div>
     </nav>
