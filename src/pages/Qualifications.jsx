@@ -6,7 +6,7 @@ import {
   recognition,
 } from "../utils/qualData";
 
-import "./Qualifications.css";
+import "../styles/Qualifications.css";
 
 function Qualifications() {
   return (

@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.container h1 {
+  font-size: 3vw;
+}
+
+
 /* Style for the button container */
 .button-container {
   display: flex;
