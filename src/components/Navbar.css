@@ -1,7 +1,18 @@
-nav {
+/* nav {
   background-color: #273076;
-  padding: 0.75rem 1rem; /* thinner navbar */
+  padding: 0.75rem 1rem;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #273076;
+  padding: 0.75rem 1rem;
 }
+
 
 .navbar-container {
   display: flex;
