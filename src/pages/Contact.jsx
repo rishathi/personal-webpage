@@ -34,7 +34,7 @@ function Contact() {
         </IconButton>
         <IconButton
           aria-label="email"
-          href="https://www.instagram.com/froggyfishie/"
+          href="https://github.com/rishathi"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-icon-button"
@@ -43,7 +43,7 @@ function Contact() {
         </IconButton>
         <IconButton
           aria-label="email"
-          href="https://github.com/rishathi"
+          href="https://www.instagram.com/froggyfishie/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-icon-button"

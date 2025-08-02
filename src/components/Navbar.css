@@ -22,7 +22,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 3rem;
+  gap: 3vw;
   justify-content: center;
   flex: 1;
   list-style: none;
