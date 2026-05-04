@@ -12,11 +12,11 @@ export let tools = [
   // "Firebase",
   // "AWS",
   // "Google Cloud Platform",
-  "Notion",
-  "Microsoft Office Suite",
-  "Google Workspace",
-  "Canva",
-  "Visual Studio Code",
+  // "Notion",
+  // "Microsoft Office Suite",
+  // "Google Workspace",
+  // "Canva",
+  // "Visual Studio Code",
 ];
 
 export let languages = [
@@ -28,16 +28,16 @@ export let languages = [
   "React",
   "Node.js",
   "Next.js",
-  "C#",
+  // "C#",
   "HTML",
   "CSS",
-  "JavaFX",
+  // "JavaFX",
   "SQL",
-  "Haskell",
-  "Bootstrap",
-  "Material UI",
-  "AG Grid",
-  "Zustand",
+  // "Haskell",
+  // "Bootstrap",
+  // "Material UI",
+  // "AG Grid",
+  // "Zustand",
 ];
 
 export let education = [
@@ -67,6 +67,6 @@ export let recognition = [
   "National Merit Scholar",
   "President’s Endowed Scholarship Recipient",
   "Engineering Honors Student",
-  "AP Scholar with Distinction",
+  // "AP Scholar with Distinction",
   "World Taekwondo Federation – Black Belt Certification",
 ];

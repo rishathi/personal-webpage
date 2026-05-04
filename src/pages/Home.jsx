@@ -25,11 +25,11 @@ const Home = () => {
       <section id="about">
         <AboutMe />
       </section>
-      <section id="qualifications">
-        <Qualifications />
-      </section>
       <section id="work">
         <MyWork />
+      </section>
+      <section id="qualifications">
+        <Qualifications />
       </section>
       <section id="contact">
         <Contact />

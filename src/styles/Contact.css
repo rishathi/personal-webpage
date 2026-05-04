@@ -11,15 +11,15 @@
 
 .contact-container h1 {
   font-size: 3vw;
-  color: #e3e6ff;
+  color: var(--color5);
   margin-bottom: 2rem;
 }
 
 .contact-container h3 {
-  color: #e3e6ff;
+  color: var(--color5);
 }
 
 .contact-icon-button svg {
-    color: #e3e6ff;
+    color: var(--color5);
     font-size: 4rem;
 }

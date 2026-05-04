@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="nav-links">
           <li onClick={() => handleNav('about')}>About Me</li>
-          <li onClick={() => handleNav('qualifications')}>Qualifications</li>
           <li onClick={() => handleNav('work')}>My Work</li>
+          <li onClick={() => handleNav('qualifications')}>Qualifications</li>
         </div>
         <li>
           <button className="button1" onClick={() => handleNav('contact')}>Let's Talk!</button>

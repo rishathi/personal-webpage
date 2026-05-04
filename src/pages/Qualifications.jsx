@@ -19,11 +19,7 @@ function Qualifications() {
       <div className="qualification-content">
         <div className="left-column">
           <p className="qualifications-intro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate.
+            Through my internships and projects, I have developed strong proficiency in JavaScript/TypeScript, React, SQL, and REST API integration, enjoying learning while building products that positively impact others. At MerQube, I redesigned and built a modular React-based tool to manage internal company documents, making it significantly easier and faster for employees to find, update, track, and delete files. At BizAcuity, I contributed to a large-scale React-based production codebase by developing new React components for a healthcare portal. 
           </p>
 
           <div className="tools-languages">

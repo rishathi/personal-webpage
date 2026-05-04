@@ -7,13 +7,28 @@ function AboutMe() {
     >
       <div className="about-me-container">
         <img
-          src="/about_me_img2.png"
+          src="/risha_img_shadow1.png"
+          alt="Risha Thimmancherla"
+          className="about-me-img-shadow1"
+        />
+        <img
+          src="/risha_img_shadow2.png"
+          alt="Risha Thimmancherla"
+          className="about-me-img-shadow2"
+        />
+        <img
+          src="/risha_img_shadow3.png"
+          alt="Risha Thimmancherla"
+          className="about-me-img-shadow3"
+        />
+        <img
+          src="/risha_img2.png"
           alt="Risha Thimmancherla"
           className="about-me-img"
         />
         <div className="about-me-description" style={{ display: 'flex', flexDirection: 'column' }}>
           <p style={{ marginBottom: '1rem' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            As a new Computer Science graduate with a Minor in Graphic Design, I am passionate about the intersection of technology and creativity to make intuitive, human-centered products. Through projects and internships I have gained valuable skills in full-stack development, working with React and Node.js to create user-friendly and secure products. I am always eager to learn new technologies and improve my skills in the ever-evolving fields of web development and graphic design.
           </p>
           <div style={{ marginTop: 'auto', alignSelf: 'flex-end' }}>
             <a
