@@ -6,7 +6,7 @@ export const gdsnData = [
     id: "book-cover-the-guide",
     category: "book-cover",
     title: "Book Cover: The Guide",
-    thumbnail: "/public/gdsn_img/book_cover_the_guide/mockup.jpg",
+    thumbnail: "/gdsn_img/book_cover_the_guide/mockup.jpg",
     tools: ["Adobe Photoshop", "Adobe Illustrator", "Riso printing", "Collage"],
     duration: "4 weeks",
     year: "2025",
@@ -17,19 +17,19 @@ export const gdsnData = [
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/book_cover_the_guide/mockup.jpg",
+        src: "/gdsn_img/book_cover_the_guide/mockup.jpg",
         caption: "Book Cover Mockup"
       }
     ],
     progress: [
       {
         type: "image",
-        src: "/public/gdsn_img/book_cover_the_guide/progress1.JPG",
+        src: "/gdsn_img/book_cover_the_guide/progress1.JPG",
         caption: "Progress Image"
       },
      {
         type: "image",
-        src: "/public/gdsn_img/book_cover_the_guide/progress2.JPG",
+        src: "/gdsn_img/book_cover_the_guide/progress2.JPG",
         caption: "Progress Image"
       },
     ],
@@ -39,7 +39,7 @@ export const gdsnData = [
     category: "branding",
     title: "Branding Project: MedMovers",
     tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Figma"],
-    thumbnail: "/public/gdsn_img/brand_identity_medmovers/mockup-truck.jpg",
+    thumbnail: "/gdsn_img/brand_identity_medmovers/mockup-truck.jpg",
     description: `
     The design and execution of a core identity program for a mobile pharmacy, with a focus on community and giving back. The concept was developed and pitched, including a business name that represents the brand story, followed by a consistent brand aesthetic and logo design. Based on these elements, brand collateral including a mobile unit, products packaging, uniforms, stationery, business cards, instagram carousel, and websites were also developed. 
     `,
@@ -48,39 +48,39 @@ export const gdsnData = [
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_medmovers/mockup-truck.jpg",
+        src: "/gdsn_img/brand_identity_medmovers/mockup-truck.jpg",
         caption: "Truck Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_medmovers/instagram.jpg",
+        src: "/gdsn_img/brand_identity_medmovers/instagram.jpg",
         caption: "Instagram carousel"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_medmovers/mockup-vaccine.jpg",
+        src: "/gdsn_img/brand_identity_medmovers/mockup-vaccine.jpg",
         caption: "Vaccine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_medmovers/mockup-stationery.jpg",
+        src: "/gdsn_img/brand_identity_medmovers/mockup-stationery.jpg",
         caption: "Stationery mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_medmovers/mockup-scrubs.jpg",
+        src: "/gdsn_img/brand_identity_medmovers/mockup-scrubs.jpg",
         caption: "Scrubs mockup"
       },
-      {
-        type: "pdf",
-        src: "/public/gdsn_img/brand_identity_medmovers/website-desktop.pdf",
-        caption: "Desktop Website (Figma)"
-      },
-      {
-        type: "pdf",
-        src: "/public/gdsn_img/brand_identity_medmovers/website-mobile.pdf",
-        caption: "Mobile Website (Figma)"
-      },
+      // {
+      //   type: "pdf",
+      //   src: "/gdsn_img/brand_identity_medmovers/website-desktop.pdf",
+      //   caption: "Desktop Website (Figma)"
+      // },
+      // {
+      //   type: "pdf",
+      //   src: "/gdsn_img/brand_identity_medmovers/website-mobile.pdf",
+      //   caption: "Mobile Website (Figma)"
+      // },
     ],
     pdfs: [
       {
@@ -179,7 +179,7 @@ export const gdsnData = [
     title: "Branding Project: Citrus Squad",
     year: "2024",
     duration: "6 weeks",
-    thumbnail: "/public/gdsn_img/brand_identity_citrus_squad/product-lemon-front.jpg",
+    thumbnail: "/gdsn_img/brand_identity_citrus_squad/product-lemon-front.jpg",
     description: `
     The concept for a fruit juice company aimed towards kids. A solid visual identity was developed based on a story and a set of filters that direct the design. A business name that represents the brand story, followed by a logo design and consistent brand aesthetic. Based on these elements, product packaging was carefully developed for multiple different flavours. Business cards and an instagram carousel were also developed. 
     `,
@@ -187,47 +187,47 @@ export const gdsnData = [
     assets: [
       // {
       //   type: "image",
-      //   src: "/public/gdsn_img/brand_identity_citrus_squad/logo.jpg",
+      //   src: "/gdsn_img/brand_identity_citrus_squad/logo.jpg",
       //   caption: "Primary logo"
       // },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-lemon-front.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-lemon-front.jpg",
         caption: "Product packaging (front) - Lemon flavor"
       },
             {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-lemon-back.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-lemon-back.jpg",
         caption: "Product packaging (back) - Lemon flavor"
       },
      {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-strawberry-front.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-strawberry-front.jpg",
         caption: "Product packaging (front) - Strawberry flavor"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-strawberry-back.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-strawberry-back.jpg",
         caption: "Product packaging (back) - Strawberry flavor"
       },
            {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-pear-front.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-pear-front.jpg",
         caption: "Product packaging (front) - Pear flavor"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/product-pear-back.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/product-pear-back.jpg",
         caption: "Product packaging (back) - Pear flavor"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/buisness_cards.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/buisness_cards.jpg",
         caption: "Business cards"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_citrus_squad/instagram_carousel.jpg",
+        src: "/gdsn_img/brand_identity_citrus_squad/instagram_carousel.jpg",
         caption: "Instagram carousel mockup"
       },
     ],
@@ -311,7 +311,7 @@ export const gdsnData = [
     category: "branding",
     title: "Branding: Sandwicho",
     tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "Figma"],
-    thumbnail: "/public/gdsn_img/brand_identity_sandwicho/mockup_menu_back.jpg",
+    thumbnail: "/gdsn_img/brand_identity_sandwicho/mockup_menu_back.jpg",
     description: `
     The design and execution of a brand identity for a new restaurant location in Bryan or College Station, based on an existing restaurant in my hometown called Sandwicho. The design of the old restaurant is updated with a new look and feel to match its new location. The logo, menu, and overall aesthetic had a complete visual overhaul, borrowing from 80s retrofuturism to create a sense of nostalgia and cheekiness. 
     `,
@@ -320,37 +320,37 @@ export const gdsnData = [
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/mockup_menu_back.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/mockup_menu_back.jpg",
         caption: "Menu cover"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/mockup_menu_front.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/mockup_menu_front.jpg",
         caption: "Menu inside spread"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/buisness_cards.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/buisness_cards.jpg",
         caption: "Business cards"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/mockup_napkin.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/mockup_napkin.jpg",
         caption: "Napkin design"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/mockup_takeout.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/mockup_takeout.jpg",
         caption: "Takeout box design"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/brand_identity_sandwicho/mockup_toothpick.jpg",
+        src: "/gdsn_img/brand_identity_sandwicho/mockup_toothpick.jpg",
         caption: "Toothpick design"
       },
       {
         type: "pdf",
-        src: "/public/gdsn_img/brand_identity_sandwicho/website_design.pdf",
+        src: "/gdsn_img/brand_identity_sandwicho/website_design.pdf",
         caption: "Website design mockup"
       }
     ],
@@ -425,7 +425,7 @@ export const gdsnData = [
     id: "magazine-raleway",
     category: "magazine",
     title: "Brochure: Raleway",
-    thumbnail: "/public/gdsn_img/magazine_raleway/mockup2.jpg",
+    thumbnail: "/gdsn_img/magazine_raleway/mockup2.jpg",
     tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
     duration: "3 weeks",
     year: "2024",
@@ -435,22 +435,22 @@ export const gdsnData = [
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_raleway/mockup1.jpg",
+        src: "/gdsn_img/magazine_raleway/mockup1.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_raleway/mockup2.jpg",
+        src: "/gdsn_img/magazine_raleway/mockup2.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_raleway/mockup3.jpg",
+        src: "/gdsn_img/magazine_raleway/mockup3.jpg",
         caption: "Magazine Mockup"
       },
       // {
       //   type: "pdf",
-      //   src: "/public/gdsn_img/magazine_raleway/magazine_spreads.pdf",
+      //   src: "/gdsn_img/magazine_raleway/magazine_spreads.pdf",
       //   caption: "Magazine spread design"
       // }
     ]
@@ -462,7 +462,7 @@ export const gdsnData = [
     category: "motion-graphics",
     title: "Witch Motion Graphics",
     tools: ["Rive", "Adobe Illustrator"],
-    thumbnail: "/public/gdsn_img/motion_graphics_witch/thumbnail.png",
+    thumbnail: "/gdsn_img/motion_graphics_witch/thumbnail.png",
     description: `
     A 10-second animation of a witch crashing into a tree, utilizing simple shapes and color palette to emphasize the 6 key animation principles. 
     `,
@@ -481,24 +481,24 @@ export const gdsnData = [
     duration: "3 weeks",
     year: "2024",
     tools: ["Adobe Illustrator"],
-    thumbnail: "/public/gdsn_img/icons_helvetica/illustration.jpg",
+    thumbnail: "/gdsn_img/icons_helvetica/illustration.jpg",
     description: `
     A set of 6 icons are created using only the typeface Helvetica Bold. The icons all represent the theme of a 1950s diner and work together as a cohesive system. Various tools in Illustrator are used to cut letterforms into pieces to form the icons. The icons are then used to create a poster with a cohesive layout.
     `,
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/icons_helvetica/icons.png",
+        src: "/gdsn_img/icons_helvetica/icons.png",
         caption: "Icon Set"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/icons_helvetica/patterns.jpg",
+        src: "/gdsn_img/icons_helvetica/patterns.jpg",
         caption: "Patterns made from icons"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/icons_helvetica/illustration.jpg",
+        src: "/gdsn_img/icons_helvetica/illustration.jpg",
         caption: "Illustration made from icons"
       }
     ]
@@ -510,34 +510,34 @@ export const gdsnData = [
     duration: "4 weeks",
     year: "2026",
     tools: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
-    thumbnail: "/public/gdsn_img/magazine_FOMO/mockup2.jpg",
+    thumbnail: "/gdsn_img/magazine_FOMO/mockup2.jpg",
     description: `
     A fully designed fictional, interview-based magazine for pop-punk music, with  a cover, table of contents, letter from the editor, two seperate artist interviews, and other smaller articles. A consistent theme was developed and utilized, including a name, color pallete, and typographic rules, inspired by zines and early-2000s music magazines. Overall, 18 pages were designed. 
     `,
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_FOMO/mockup1.jpg",
+        src: "/gdsn_img/magazine_FOMO/mockup1.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_FOMO/mockup2.jpg",
+        src: "/gdsn_img/magazine_FOMO/mockup2.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_FOMO/mockup3.jpg",
+        src: "/gdsn_img/magazine_FOMO/mockup3.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_FOMO/mockup4.jpg",
+        src: "/gdsn_img/magazine_FOMO/mockup4.jpg",
         caption: "Magazine Mockup"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/magazine_FOMO/mockup5.jpg",
+        src: "/gdsn_img/magazine_FOMO/mockup5.jpg",
         caption: "Magazine Mockup"
       }
     ],
@@ -637,7 +637,7 @@ export const gdsnData = [
     category: "motion-graphics",
     title: "Short Animation: Poetry in Motion",
     tools: ["Cavalry", "Adobe After Effects", "Adobe Illustrator"],
-    thumbnail: "/public/gdsn_img/motion_graphics_poetry_in_motion/thumbnail.png",
+    thumbnail: "/gdsn_img/motion_graphics_poetry_in_motion/thumbnail.png",
     description: `
     This project is a choreographed typography piece which uses a sound clip of a conversation between myself and and my friend. Through movement, typography, and other minor graphics I aimed to communicate the punchline and produce an emotional response in the viewer. An important goal of this project was to crate a piece beautiful enough for every frame to be a poster.
 `,
@@ -649,19 +649,19 @@ export const gdsnData = [
       },
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_poetry_in_motion/poster.jpg",
+        src: "/gdsn_img/motion_graphics_poetry_in_motion/poster.jpg",
         caption: "Poster design from screenshots or the animation."
       },
     ],
     progress: [
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_poetry_in_motion/sketches.png",
+        src: "/gdsn_img/motion_graphics_poetry_in_motion/sketches.png",
         caption: "Sketches"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_poetry_in_motion/moodboard.png",
+        src: "/gdsn_img/motion_graphics_poetry_in_motion/moodboard.png",
         caption: "Moodboard"
       }
     ]
@@ -671,7 +671,7 @@ export const gdsnData = [
     category: "motion-graphics",
     title: "Short Animation: Movie Title",
     tools: ["Adobe After Effects", "Adobe Premiere Pro", "Adobe Illustrator"],
-    thumbnail: "/public/gdsn_img/motion_graphics_movie_titles/thumbnail.png",
+    thumbnail: "/gdsn_img/motion_graphics_movie_titles/thumbnail.png",
     description: `
     The identity and opening titles for “The Muppet Movie” (1979), made only by reading the script and without having seen the movie. This was to avoid being influenced by the actual identities and opening titles and produce a fresh take on these elements. The opening titles share the names of the actors and major creative forces who created the work, and also visually prepare the audience for the movie they’re about to watch.
     `,
@@ -685,12 +685,12 @@ export const gdsnData = [
     progress: [
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_movie_titles/logo.jpg",
+        src: "/gdsn_img/motion_graphics_movie_titles/logo.jpg",
         caption: "Movie Logo"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_movie_titles/moodboard.png",
+        src: "/gdsn_img/motion_graphics_movie_titles/moodboard.png",
         caption: "Moodboard"
       },
     ]
@@ -700,7 +700,7 @@ export const gdsnData = [
     category: "motion-graphics",
     title: "Short Animation: Back and Forth",
     tools: ["Adobe Premiere Pro", "Adobe Photoshop", "Stop Motion Animation"],
-    thumbnail: "/public/gdsn_img/motion_graphics_back_and_forth/keyframes2.jpg",
+    thumbnail: "/gdsn_img/motion_graphics_back_and_forth/keyframes2.jpg",
     description: "For the physical aspect of this project, I used stop motion animation– specifically object animation. My project follows a star that comes down to the earth, explores its surroundings, and then returns to the sky to join the other stars. The animation itself consists of videos I took during a trip and digitally altered, upon which I animated the star character. I used flatback rhinestones to represent the stars. All of the stars that are seen in the “sky” portion of the video are animated using stop motion animation. The star character is also animated with stop motion while it is in the sky, but is animated digitally once it comes down to the \“earth.\”",
 
     assets: [
@@ -713,17 +713,17 @@ export const gdsnData = [
     progress: [
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_back_and_forth/sketches.png",
+        src: "/gdsn_img/motion_graphics_back_and_forth/sketches.png",
         caption: "Sketches"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_back_and_forth/progress1.JPG",
+        src: "/gdsn_img/motion_graphics_back_and_forth/progress1.JPG",
         caption: "Progress Photo"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/motion_graphics_back_and_forth/progress2.JPG",
+        src: "/gdsn_img/motion_graphics_back_and_forth/progress2.JPG",
         caption: "Setup for Stop Motion"
       },
     ]
@@ -735,19 +735,19 @@ export const gdsnData = [
     duration: "6 weeks",
     year: "2026",
     tools: ["Adobe Illustrator", "Adobe Photoshop"],
-    thumbnail: "/public/gdsn_img/type_badges_astrology/type_badges.jpg",
+    thumbnail: "/gdsn_img/type_badges_astrology/type_badges.jpg",
     description: `
     A series of typographic badges based on astrology, showcased in poster form. The design is based on a retro psychedelic style, with each badge conforming to this theme. 
     `,
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/type_badges_astrology/poster-mockup.jpg",
+        src: "/gdsn_img/type_badges_astrology/poster-mockup.jpg",
         caption: "Poster mockup featuring the type badges"
       },
       {
         type: "image",
-        src: "/public/gdsn_img/type_badges_astrology/type_badges.jpg",
+        src: "/gdsn_img/type_badges_astrology/type_badges.jpg",
         caption: "Type Badges"
       },
     ]
@@ -757,14 +757,14 @@ export const gdsnData = [
     category: "type-badges",
     title: "National Parks Type Badges",
     tools: ["Adobe Illustrator"],
-    thumbnail: "/public/gdsn_img/type_badges_national_parks/type_badges.jpg",
+    thumbnail: "/gdsn_img/type_badges_national_parks/type_badges.jpg",
     description:`
     Six type badges for National Parks that are categorized as Dark Sky Places. The badges are designed to be used as a system, with a consistent style and color palette. Each badge represents a different National Park and incorporates elements that are unique to that park, while still maintaining a cohesive look across the set.
     `,
     assets: [
       {
         type: "image",
-        src: "/public/gdsn_img/type_badges_national_parks/type_badges.jpg",
+        src: "/gdsn_img/type_badges_national_parks/type_badges.jpg",
         caption: "Type Badges"
       },
     ]

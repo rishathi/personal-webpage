@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import logo from '/logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -11,6 +12,10 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar-container">
+        <div className="logo" onClick={() => navigate('/')}>
+          <img src={logo} alt="Logo" />
+          {/* <p>wjdjhsfad</p> */}
+        </div>
         <div className="nav-links">
           <li onClick={() => handleNav('about')}>About Me</li>
           <li onClick={() => handleNav('work')}>My Work</li>

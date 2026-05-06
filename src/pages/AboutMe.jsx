@@ -6,7 +6,7 @@ function AboutMe() {
       style={{ marginRight: "5vw" }}
     >
       <div className="about-me-container">
-        <img
+        {/* <img
           src="/risha_img_shadow1.png"
           alt="Risha Thimmancherla"
           className="about-me-img-shadow1"
@@ -20,7 +20,7 @@ function AboutMe() {
           src="/risha_img_shadow3.png"
           alt="Risha Thimmancherla"
           className="about-me-img-shadow3"
-        />
+        /> */}
         <img
           src="/risha_img2.png"
           alt="Risha Thimmancherla"
