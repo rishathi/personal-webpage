@@ -21,15 +21,15 @@ const Home = () => {
   }, [location]);
 
   return (
-    <div>
+    <div className="content">
       <section id="about">
         <AboutMe />
       </section>
-      <section id="qualifications">
-        <Qualifications />
-      </section>
       <section id="work">
         <MyWork />
+      </section>
+      <section id="qualifications">
+        <Qualifications />
       </section>
       <section id="contact">
         <Contact />

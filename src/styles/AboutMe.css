@@ -1,0 +1,74 @@
+.about-me-img-shadow1 {
+  position: absolute;
+  width: 45vw;
+  top: 17vh;
+  /* left: 5vh; */
+  right: 57vw;
+  z-index: 3; 
+}
+.about-me-img-shadow2 {
+  position: absolute;
+  width: 45vw;
+  top: 22vh;
+  /* left: 10vh; */
+  right: 59vw;
+  z-index: 2;
+}
+.about-me-img-shadow3 {
+  position: absolute;
+  width: 45vw;
+  top: 27vh;
+  /* left: 15vh; */
+  right: 61vw;
+  z-index: 1;
+}
+.about-me-img {
+  width: 45vw;
+  top: 15vh;
+  z-index: 10; /* Place it above the shadow images */
+  /* border-radius: 10px;
+  object-fit: cover; */
+}
+
+.about-me-header {
+    position: absolute;
+    top: 20vh;
+    left: 34vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-me-header h1 {
+    font-size: 5vw;
+    margin: 0; /* Remove default margin from <h1> tags */
+}
+
+.about-me-header p {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.about-me-header p:last-of-type {
+    align-self: flex-end; /* Aligns the "Full-Stack Developer" text to the right */
+}
+
+.about-me-description {
+  width: 100%; /* Let it take up available space */
+  max-width: 45vw; /* Set a maximum width to prevent stretching too much */
+  margin-left: 2vw; /* Add a little space from the left */
+  margin-top: 15vw; /* Keep it from overlapping the header */
+  font-size: 1.2vw;
+  line-height: 1.2;
+  text-align: justify; /* Justify the text for cleaner alignment */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  word-wrap: break-word; /* Allow long words to break */
+}
+
+.about-me-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: space-between; /* Space between image and description */
+  margin-top: 4vw;
+}

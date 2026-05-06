@@ -1,0 +1,25 @@
+.contact-container {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-bottom: 32rem;
+
+
+  text-align: center;
+  padding-top: 60px; /* account for fixed navbar */
+
+}
+
+.contact-container h1 {
+  font-size: 3vw;
+  color: var(--color5);
+  margin-bottom: 2rem;
+}
+
+.contact-container h3 {
+  color: var(--color5);
+}
+
+.contact-icon-button svg {
+    color: var(--color5);
+    font-size: 4rem;
+}

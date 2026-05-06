@@ -1,3 +1,130 @@
+/* :root {
+  --color1: #272531;
+  --color2: #273076;
+  --color3: #5d459c;
+  --color4: #d24fa3;
+  --color5: #e3e6ff;
+} */
+
+/* :root {
+  --color1: #36221Dff; 
+  --color2: #74675Dff; 
+  --color3: #A7A086ff; 
+  --color4: #9E906Bff; 
+  --color5: #F3F6FAff; 
+} */
+
+
+/* :root {
+  --color3: #EADFB7ff;
+  --color2: #74675Dff;
+  --color1: #D9CAA6ff;
+  --color4: #B1C7A6ff;
+  --color5: rgb(0, 0, 0);
+} */
+
+/* :root {
+  --color5: #3F525Aff;
+  --color3: #B1B0B1ff;
+  --color2: #B1C7A6ff;
+  --color4: #D38AACff;
+  --color1: #D9CAA6ff;
+
+--old-rose: #D38AACff;
+--charcoal-blue: #3F525Aff;
+--silver: #B1B0B1ff;
+--pale-oak: #D9CAA6ff;
+--celadon: #B1C7A6ff;
+} */
+
+
+
+/* 
+:root {
+  --color1: #272531;
+  --color2: #273076;
+  --color3: #5d459c;
+  --color4: #d24fa3;
+  --color5: #e3e6ff;
+} */
+
+
+/* 
+  #272531 - navy
+  #273076 - blue
+  #5d459c - purple
+  #d24fa3 - magenta
+  #e3e6ff - off-white
+*/
+
+/* :root {
+  --color1: #242b2dff; 
+  --color2: #27454cff; 
+  --color5: #D5DBDEff; 
+  --color4: #D78DB0ff; 
+  --color3: #C02A72ff; 
+
+--pink-mist: #D78DB0ff;
+--dim-grey: #676D65ff;
+--charcoal-blue: #3F525Aff;
+--olive-wood: #8D744Fff;
+--hot-rose: #C02A72ff;
+} */
+
+:root {
+  --color0: #f5e2b0; /* background gradient */
+  --color1: #EFF9E8; 
+  --color2: #85a898; /* navbar */
+  --color3: #658c6e; 
+  --color4: #f5e2b0; 
+  --color5: #2b3a2d; /* text color */
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color1);
+  padding-top: 60px;
+}
+
+p {
+  color: var(--color5);
+}
+
+h1, h2 {
+  color: var(--color5);
+}
+
+/* Button of className button1 */
+.button1 {
+  background-color: var(--color3);
+  border: none;
+  color: var(--color1);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.button1:hover {
+  background-color: var(--color4);
+  color: var(--color5);
+}
+
+.button2 {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: default;
+  background-color: var(--color4);
+  border: none;
+  border-radius: 10px;
+  color: var(--color5);
+  font-weight: 600;
+  padding: 0.5rem 1rem;
 }
